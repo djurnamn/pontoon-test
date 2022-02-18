@@ -1,0 +1,10 @@
+basepath = "."
+
+locales = [
+    "en-US",
+    "sv-SE",
+]
+
+[[paths]]
+    reference = "locales/en/*.json"
+    l10n = "locales/{locale}/*.json"
